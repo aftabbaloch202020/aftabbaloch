@@ -1,11 +1,32 @@
-<div align="center">
+# AuraScents - Luxury Perfume E-commerce
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A premium, full-stack e-commerce platform for artisanal fragrances.
 
-  <h1>Built with AI Studio</h2>
+## Tech Stack
+- **Frontend**: React, Vite, Tailwind CSS, Framer Motion, Lucide Icons
+- **Backend**: Node.js, Express.js, JWT, SQLite (better-sqlite3)
+- **Payments**: Stripe (Integrated)
+- **Database**: SQLite (Local persistence for container environment)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Features
+- ✨ Luxury Dark UI with Gold Accents
+- 🛍️ Full Shopping Cart Management
+- 🔐 JWT Authentication (Login/Register)
+- 🧪 Detailed Olfactory Pyramide View
+- 📱 Fully Responsive Design
+- 💳 Stripe Checkout Integration (Workflow Ready)
+- 🚀 Modern Framer Motion Animations
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Start development server: `npm run dev`
+4. Visit `http://localhost:3000`
 
-</div>
+## Environment Variables
+Copy `.env.example` to `.env` and provide:
+- `STRIPE_SECRET_KEY`: Your Stripe secret key.
+- `JWT_SECRET`: A secret string for signing tokens.
+
+---
+Produced by AuraScents International © 2026.
